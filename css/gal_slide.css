@@ -1,0 +1,15 @@
+#img_wrapper {
+    margin-bottom: 10px;
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #5F4B8B;
+}
+#img_wrapper img {
+    max-width: 95%;
+    max-height: 95%;
+    border-radius: 20px;
+}
