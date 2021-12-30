@@ -9,8 +9,8 @@
 #img_w #p1 {
     font-family: 'establishRetrosansOTF';
     z-index: 3;
-    position: fixed;
-    bottom: 6%;
+    position: absolute;
+    bottom: 4%;
     font-size: 4rem;
     color: #fff;
     text-shadow: 4px 4px #69C9D0;
@@ -41,7 +41,7 @@
 }
 #img_w #img_img{
     max-width: 90%;
-    max-height: 80%;
+    max-height: 70%;
     border-radius: 10px;
     box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
 }
