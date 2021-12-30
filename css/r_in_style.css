@@ -12,9 +12,15 @@
     text-align: center;
     color: #fff;
     font-family: 'establishRetrosansOTF';
+    font-size: 1rem;
 }
 #inner_wrap #logo_wrap img {
     margin-top: 20px;
     max-width: 70%;
     max-height: 70%;
+}
+@media all and (max-width: 700px) {
+    #logo_wrap {
+        font-size: 1rem;
+    }
 }
