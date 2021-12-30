@@ -1,15 +1,22 @@
-#img_wrapper {
-    margin-bottom: 10px;
-    width: 25%;
+#img_wrap {
+    float: left;
+    width: 80%;
     height: 100%;
     display: flex;
-    align-items: center;
-    flex-direction: column;
     justify-content: center;
-    background-color: #fff;
+    align-items: center;
 }
-#img_wrapper img {
-    max-width: 95%;
-    max-height: 95%;
-    border-radius: 20px;
+#arrow {
+    float: left;
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+#img_wrap #img_slide{
+    max-width: 100%;
+    max-height: 100%;
+    float: left ;
 }
