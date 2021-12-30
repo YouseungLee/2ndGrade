@@ -2,5 +2,19 @@
     float: left;
     width: 30%;
     height: 100%;
-    background-color: red;
+    background-color: crimson;
+}
+#nav .line {
+    float: left;
+    width: 1%;
+    height: 100%;
+    background-color: #000;
+}
+#nav #line2 {
+    width: 2%;
+    margin-left: 10px;
+}
+#nav #line3 {
+    margin-left: 10px;
+    width: 3%;
 }
