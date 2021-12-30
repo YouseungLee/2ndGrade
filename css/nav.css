@@ -1,20 +1,32 @@
 #nav {
     float: left;
     width: 30%;
-    height: 100%;
-    background-color: crimson;
+    height: 100%;   
+    display: flex;
+    align-items: center;
 }
-#nav .line {
+#nav #gnb {  
+    margin-left: 200px;
     float: left;
-    width: 1%;
-    height: 100%;
-    background-color: #000;
 }
-#nav #line2 {
-    width: 2%;
-    margin-left: 10px;
+#nav #gnb li {
+    color: #fff;
+    width: 100%;
+    height: 100px;
+    font-size: 3rem;
+    border-bottom: 2px solid #fff;
 }
-#nav #line3 {
-    margin-left: 10px;
-    width: 3%;
+#nav #gnb li a{
+    margin-top: 30px;
+    font-family: 'establishRetrosansOTF';
+    float: left;
+    width: 100%;
+    color: #fff;
+    text-decoration: none;
+
+    text-align: center;
+    text-shadow: 4px 4px #69C9D0;
+}
+#nav #gnb li a:hover {
+    color: rgb(250, 250, 141);
 }
