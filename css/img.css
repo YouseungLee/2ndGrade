@@ -8,13 +8,28 @@
     background-color: black;
 }
 #img_w #p1 {
-    bottom: 7%;
-    position: fixed;
-    color: #fff;
     z-index: 3;
-    font-size: 5rem;
+    position: fixed;
+    bottom: 8%;
     font-family: 'establishRetrosansOTF';
+    font-size: 5rem;
+    font-weight:  100;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #f35626;
+    background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: hue 10s infinite linear;
 }
+@-webkit-keyframes hue {
+    from {
+      -webkit-filter: hue-rotate(0deg);
+    }
+    to {
+      -webkit-filter: hue-rotate(-360deg);
+    }
+  }
 #img_w #img_img{
     max-width: 80%;
     max-height: 60%;
