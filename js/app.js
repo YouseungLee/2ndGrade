@@ -14,7 +14,7 @@ $(".a_right").on("click", function() {
   slide_index++;
   if (slide_index <= 0) {
     slide_index = 0;
-  } else if (slide_index == 49) {
+  } else if (slide_index == 65) {
     slide_index = 0;
   }
 });
@@ -24,7 +24,7 @@ $(".a_left").on("click", function() {
   slide_index--;
   if (slide_index <= 0) {
     slide_index = 0;
-  } else if (slide_index == 49) {
+  } else if (slide_index == 65) {
     slide_index = 0;
   }
 });
