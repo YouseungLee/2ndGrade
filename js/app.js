@@ -9,22 +9,24 @@ setInterval(function() {
 
 var slide_index = 1;
 $(".a_right").on("click", function() {
-  console.log("working");
+  console.log(slide_index);
   $("#img_slide").attr("src", "./gal/" + slide_index + ".jpg");
   slide_index++;
   if (slide_index <= 0) {
     slide_index = 1;
   } else if (slide_index == 25) {
     slide_index = 1;
+  } else if (slide_index == 2) {
+
   }
 });
 $(".a_left").on("click", function() {
-  console.log("working");
+  console.log(slide_index);
   $("#img_slide").attr("src", "./gal/" + slide_index + ".jpg");
   slide_index--;
   if (slide_index <= 0) {
     slide_index = 1;
-  } else if (slide_index <= 25) {
+  } else if (slide_index == 25) {
     slide_index = 1;
   }
 });
