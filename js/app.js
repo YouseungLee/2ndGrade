@@ -7,24 +7,24 @@ setInterval(function() {
     }
 }, 3000);
 
-var slide_index = 0;
+var slide_index = 1;
 $(".a_right").on("click", function() {
   console.log(slide_index);
-  $("#img_slide").attr("src", "./gal/" + slide_index + ".jpg");
+  $("#img_slide").attr("src", "./gal/photo (" + slide_index + ").jpg");
   slide_index++;
-  if (slide_index <= -1) {
+  if (slide_index <= 0) {
     slide_index = 0;
-  } else if (slide_index == 24) {
+  } else if (slide_index == 49) {
     slide_index = 0;
   }
 });
 $(".a_left").on("click", function() {
   console.log(slide_index);
-  $("#img_slide").attr("src", "./gal/" + slide_index + ".jpg");
+  $("#img_slide").attr("src", "./gal/photo (" + slide_index + ").jpg");
   slide_index--;
-  if (slide_index <= -1) {
+  if (slide_index <= 0) {
     slide_index = 0;
-  } else if (slide_index == 24) {
+  } else if (slide_index == 49) {
     slide_index = 0;
   }
 });
